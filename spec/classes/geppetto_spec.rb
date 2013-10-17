@@ -4,7 +4,7 @@ describe 'geppetto' do
   it do
     should contain_package('Geppetto-3.2.0').with({
       :provider => 'zip',
-      :source   => 'https://downloads.puppetlabs.com/geppetto/geppetto-macosx.cocoa.x86_64-3.2.0-R201307041307.zip'
+      :source   => 'https://downloads.puppetlabs.com/geppetto/4.x/geppetto-macosx.cocoa.x86_64-4.0.0-R201310140657.zip'
     })
   end
 end
