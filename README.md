@@ -1,13 +1,13 @@
-# Template Puppet Module for Boxen
+# Geppetto Puppet Module for Boxen
 
 [![Build Status](https://travis-ci.org/dieterdemeyer/puppet-geppetto.png?branch=master)](https://travis-ci.org/dieterdemeyer/puppet-geppetto)
+
+Install [Geppetto](http://cloudsmith.github.io/geppetto/index.html), an integrated toolset for developing puppet modules and manifests.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include geppetto
 ```
 
 ## Required Puppet Modules

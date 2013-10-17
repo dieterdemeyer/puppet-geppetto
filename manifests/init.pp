@@ -1,3 +1,14 @@
+# Install Geppetto to /Applications.
+#
+# Examples
+#
+#   include geppetto
+#
 class geppetto {
-  anchor { 'Hello_World': }
+
+  package { 'Geppetto-3.2.0':
+    provider => 'zip',
+    source   => 'https://downloads.puppetlabs.com/geppetto/geppetto-macosx.cocoa.x86_64-3.2.0-R201307041307.zip'
+  }
+
 }
